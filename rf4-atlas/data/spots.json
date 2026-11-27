@@ -1,0 +1,1557 @@
+[
+  {
+    "id": "staryy-ostrog-amur-belyy-trofey-21-67",
+    "water": "staryy-ostrog",
+    "fish": "Амур белый (трофей)",
+    "coord": "21:67",
+    "place": null,
+    "bait": "Чёрная смородина PopUp 25 + ежевика PopUp 20, дип чёрная смородина",
+    "clip": "17",
+    "note": "Крючок Огромный 4/0",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "staryy-ostrog-karas-serebryanyy-trofey-21-67",
+    "water": "staryy-ostrog",
+    "fish": "Карась серебряный (трофей)",
+    "coord": "21:67",
+    "place": null,
+    "bait": "Кокос и сливки",
+    "clip": "16",
+    "note": "Крючок Большой 1",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "staryy-ostrog-lesch-trofey-10-44",
+    "water": "staryy-ostrog",
+    "fish": "Лещ (трофей)",
+    "coord": "10:44",
+    "place": null,
+    "bait": "Тесто чесночное",
+    "clip": "12",
+    "note": "Крючок Большой 1",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "staryy-ostrog-ugor-trofey-36-28",
+    "water": "staryy-ostrog",
+    "fish": "Угорь (трофей)",
+    "coord": "36:28",
+    "place": null,
+    "bait": "Кусочки рыбы",
+    "clip": "8",
+    "note": "Крючок Большой 1",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "staryy-ostrog-ukleyka-24-67",
+    "water": "staryy-ostrog",
+    "fish": "Уклейка",
+    "coord": "24:67",
+    "place": null,
+    "bait": "Мотыль",
+    "clip": null,
+    "note": "Крючок Крошечный 22, глубина 18 см",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "staryy-ostrog-schuka-obyknovennaya-47-20",
+    "water": "staryy-ostrog",
+    "fish": "Щука обыкновенная",
+    "coord": "47:20",
+    "place": null,
+    "bait": "Воблер Blast X-Shad F95-07",
+    "clip": null,
+    "note": "Скорость проводки 50",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "staryy-ostrog-gustera-trofey-23-30",
+    "water": "staryy-ostrog",
+    "fish": "Густера (трофей)",
+    "coord": "23:30",
+    "place": null,
+    "bait": null,
+    "clip": "15",
+    "note": null,
+    "verified": true,
+    "sources": [
+      "tg-gde-kluet"
+    ]
+  },
+  {
+    "id": "staryy-ostrog-karas-zolotoy-trofey-21-67",
+    "water": "staryy-ostrog",
+    "fish": "Карась золотой (трофей)",
+    "coord": "21:67",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Трофеи берутся в основном ночью. Садок, кормить можно ПВА или ракетой",
+    "verified": true,
+    "sources": [
+      "rrklev"
+    ]
+  },
+  {
+    "id": "vyunok-unknown-106-98",
+    "water": "vyunok",
+    "fish": null,
+    "coord": "106:98",
+    "place": null,
+    "bait": "Кусочки рыбы",
+    "clip": "8",
+    "note": "Автор охотился больше двух недель, нарезал свыше 200 кусочков",
+    "verified": true,
+    "sources": [
+      "tg-rf4places"
+    ]
+  },
+  {
+    "id": "vyunok-golavl-trofey-117-124",
+    "water": "vyunok",
+    "fish": "Голавль (трофей)",
+    "coord": "117:124",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Много голавля у палатки, есть язь, изредка жерех. Скорость подмотки 24, заброс на максимум",
+    "verified": true,
+    "sources": [
+      "tg-russianfishrr4"
+    ]
+  },
+  {
+    "id": "vyunok-trofei-na-donku-119-123",
+    "water": "vyunok",
+    "fish": "Трофеи на донку",
+    "coord": "119:123",
+    "place": null,
+    "bait": "Сверчок",
+    "clip": null,
+    "note": "Яма 4,5 м, ходовая точка",
+    "verified": true,
+    "sources": [
+      "tg-russianfishrr4"
+    ]
+  },
+  {
+    "id": "vyunok-ersh-nosar-trofey-99-121",
+    "water": "vyunok",
+    "fish": "Ёрш-носарь (трофей)",
+    "coord": "99:121",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Точка от 14.07.2026",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "vyunok-peskar-trofey-87-103",
+    "water": "vyunok",
+    "fish": "Пескарь (трофей)",
+    "coord": "87:103",
+    "place": null,
+    "bait": "Мотыль, бутерброд с мотылём",
+    "clip": null,
+    "note": "Глубина 30-35 см",
+    "verified": true,
+    "sources": [
+      "rf4guru"
+    ]
+  },
+  {
+    "id": "ahtuba-unknown-117-101",
+    "water": "ahtuba",
+    "fish": null,
+    "coord": "117:101",
+    "place": null,
+    "bait": "Пикантная вишня 16",
+    "clip": "8",
+    "note": "Прикормка: пикантная вишня soluble 20, бойлы, молотая кукуруза, вишнёвый ликёр. Плетёный поводок 31,5 кг",
+    "verified": true,
+    "sources": [
+      "tg-rf4places"
+    ]
+  },
+  {
+    "id": "ahtuba-usach-korotkogolovyy-100-57",
+    "water": "ahtuba",
+    "fish": "Усач короткоголовый",
+    "coord": "100:57",
+    "place": null,
+    "bait": null,
+    "clip": "17",
+    "note": "Фарм",
+    "verified": true,
+    "sources": [
+      "rf4guru"
+    ]
+  },
+  {
+    "id": "ahtuba-osetr-russkiy-som-nalim-100-57",
+    "water": "ahtuba",
+    "fish": "Осётр русский, сом, налим",
+    "coord": "100:57",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Активная точка по постам игроков",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "ahtuba-beluga-kaspiyskaya-51-85",
+    "water": "ahtuba",
+    "fish": "Белуга каспийская",
+    "coord": "51:85",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Глубина 720, рядом упомянут осётр. Отмечено как проверенное",
+    "verified": true,
+    "sources": [
+      "rrklev"
+    ]
+  },
+  {
+    "id": "medvezhe-usach-albinosy-55-31",
+    "water": "medvezhe",
+    "fish": "Усач (альбиносы)",
+    "coord": "55:31",
+    "place": null,
+    "bait": "Личинка майского жука",
+    "clip": "17",
+    "note": "10 альбиносов из 54 поклёвок, поводок 18 кг",
+    "verified": true,
+    "sources": [
+      "tg-rf4places"
+    ]
+  },
+  {
+    "id": "medvezhe-karp-cheshuychatyy-amur-belyy-karp-zerkalnyy-55-63",
+    "water": "medvezhe",
+    "fish": "Карп чешуйчатый, амур белый, карп зеркальный",
+    "coord": "55:63",
+    "place": null,
+    "bait": null,
+    "clip": "17",
+    "note": "Также карп голый и линь золотистый",
+    "verified": true,
+    "sources": [
+      "rf4map",
+      "rf4guru"
+    ]
+  },
+  {
+    "id": "losinoe-krappi-chernyy-103-74",
+    "water": "losinoe",
+    "fish": "Краппи чёрный",
+    "coord": "103:74",
+    "place": null,
+    "bait": "Сверчок",
+    "clip": "10",
+    "note": "Глубина 140 см, крючок Zenith Etalon Mugga S4, на спиннинг",
+    "verified": true,
+    "sources": [
+      "tg-rf4places"
+    ]
+  },
+  {
+    "id": "losinoe-solnechnik-sinezhabernyy-varmous-krappi-belyy-65-93",
+    "water": "losinoe",
+    "fish": "Солнечник синежаберный, вармоус, краппи белый",
+    "coord": "65:93",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Активная точка по постам игроков",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "yama-unknown-194-198",
+    "water": "yama",
+    "fish": null,
+    "coord": "194:198",
+    "place": null,
+    "bait": "Судаковая №2",
+    "clip": null,
+    "note": "Поводок флюорокарбон 18 кг",
+    "verified": true,
+    "sources": [
+      "tg-rf4places"
+    ]
+  },
+  {
+    "id": "yama-chavycha-264-184",
+    "water": "yama",
+    "fish": "Чавыча",
+    "coord": "264:184",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Донка",
+    "verified": true,
+    "sources": [
+      "nerestlab"
+    ]
+  },
+  {
+    "id": "yama-sima-zhilaya-267-174",
+    "water": "yama",
+    "fish": "Сима жилая",
+    "coord": "267:174",
+    "place": null,
+    "bait": null,
+    "clip": "35",
+    "note": "Скорость 50",
+    "verified": true,
+    "sources": [
+      "rf4guru"
+    ]
+  },
+  {
+    "id": "yama-raznorybica-210-192",
+    "water": "yama",
+    "fish": "Разнорыбица",
+    "coord": "210:192",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": null,
+    "verified": true,
+    "sources": [
+      "rrklev"
+    ]
+  },
+  {
+    "id": "komarinoe-plotva-87-87",
+    "water": "komarinoe",
+    "fish": "Плотва",
+    "coord": "87:87",
+    "place": null,
+    "bait": "Сырный кубик",
+    "clip": "6",
+    "note": "Петлевая оснастка, заброс прямо, 51 минута на точке",
+    "verified": true,
+    "sources": [
+      "tg-russianfishrr4"
+    ]
+  },
+  {
+    "id": "komarinoe-ersh-trofey-50-80",
+    "water": "komarinoe",
+    "fish": "Ёрш (трофей)",
+    "coord": "50:80",
+    "place": null,
+    "bait": null,
+    "clip": "8",
+    "note": "Автор сидел с 21:00 до 8:00 и взял три трофея",
+    "verified": true,
+    "sources": [
+      "tg-russianfishrr4"
+    ]
+  },
+  {
+    "id": "komarinoe-lyagushka-97-84",
+    "water": "komarinoe",
+    "fish": "Лягушка",
+    "coord": "97:84",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Глубина 20. Ранее активной была точка 85:45",
+    "verified": true,
+    "sources": [
+      "tg-russianfishrr4"
+    ]
+  },
+  {
+    "id": "komarinoe-rotan-plotva-i-drugaya-meloch-56-75",
+    "water": "komarinoe",
+    "fish": "Ротан, плотва и другая мелочь",
+    "coord": "56:75",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Активная точка по постам игроков",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "belaya-harius-evropeyskiy-trofey-68-30",
+    "water": "belaya",
+    "fish": "Хариус европейский (трофей)",
+    "coord": "68:30",
+    "place": null,
+    "bait": "Спиннер Spiker 2",
+    "clip": null,
+    "note": "Скорость подмотки 30",
+    "verified": true,
+    "sources": [
+      "tg-rf4gdekluet"
+    ]
+  },
+  {
+    "id": "belaya-harius-trofey-73-56",
+    "water": "belaya",
+    "fish": "Хариус (трофей)",
+    "coord": "73:56",
+    "place": null,
+    "bait": "Спиннер 18",
+    "clip": null,
+    "note": "Скорость 35",
+    "verified": true,
+    "sources": [
+      "tg-rf4gdekluet"
+    ]
+  },
+  {
+    "id": "belaya-elec-trofey-72-85",
+    "water": "belaya",
+    "fish": "Елец (трофей)",
+    "coord": "72:85",
+    "place": null,
+    "bait": "Мотыль",
+    "clip": null,
+    "note": "Глубина 30 см, заброс 80-90%",
+    "verified": true,
+    "sources": [
+      "tg-rf4gdekluet"
+    ]
+  },
+  {
+    "id": "kuori-golec-kuorskiy-forel-ozernaya-sig-kuorskiy-92-100",
+    "water": "kuori",
+    "fish": "Голец куорский, форель озёрная, сиг куорский",
+    "coord": "92:100",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Активная точка по постам игроков",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "mednoe-karasekarp-lin-67-59",
+    "water": "mednoe",
+    "fish": "Карасекарп, линь",
+    "coord": "67:59",
+    "place": null,
+    "bait": null,
+    "clip": "5-6",
+    "note": "Клёва почти нет, но за два часа пришло четыре трофея",
+    "verified": true,
+    "sources": [
+      "tg-rf4map"
+    ]
+  },
+  {
+    "id": "mednoe-karasekarp-lin-lin-kvolsdorfskiy-56-50",
+    "water": "mednoe",
+    "fish": "Карасекарп, линь, линь квольсдорфский",
+    "coord": "56:50",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Фарм",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "yantarnoe-karp-golyy-karp-zerkalnyy-83-145",
+    "water": "yantarnoe",
+    "fish": "Карп голый, карп зеркальный",
+    "coord": "83:145",
+    "place": null,
+    "bait": null,
+    "clip": "35",
+    "note": "Дно. На точке очень людно",
+    "verified": true,
+    "sources": [
+      "tg-rf4map"
+    ]
+  },
+  {
+    "id": "yantarnoe-karp-zerkalnyy-karp-cheshuychatyy-usach-124-66",
+    "water": "yantarnoe",
+    "fish": "Карп зеркальный, карп чешуйчатый, усач",
+    "coord": "124:66",
+    "place": null,
+    "bait": null,
+    "clip": "15",
+    "note": "Фарм, точка от 14.07.2026",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "ladozhskoe-ozero-plotva-obyknovennaya-trofey-69-62",
+    "water": "ladozhskoe-ozero",
+    "fish": "Плотва обыкновенная (трофей)",
+    "coord": "69:62",
+    "place": null,
+    "bait": null,
+    "clip": "9",
+    "note": "Точка от 14.07.2026",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "severskiy-donec-karas-serebryanyy-i-zolotoy-taran-plotva-80-165",
+    "water": "severskiy-donec",
+    "fish": "Карась серебряный и золотой, тарань, плотва",
+    "coord": "80:165",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Глубина 90, карась ловится по ночам",
+    "verified": true,
+    "sources": [
+      "tg-rf4map"
+    ]
+  },
+  {
+    "id": "sura-bersh-17-55",
+    "water": "sura",
+    "fish": "Берш",
+    "coord": "17:55",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Трофей",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "sura-zhereh-77-31",
+    "water": "sura",
+    "fish": "Жерех",
+    "coord": "77:31",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Трофей",
+    "verified": true,
+    "sources": [
+      "rf4map"
+    ]
+  },
+  {
+    "id": "norvezhskoe-more-paltus-atlanticheskiy-80-banka",
+    "water": "norvezhskoe-more",
+    "fish": "Палтус атлантический",
+    "coord": null,
+    "place": "80 банка",
+    "bait": null,
+    "clip": null,
+    "note": "Взят на хантер 1000-5",
+    "verified": true,
+    "sources": [
+      "rrklev"
+    ]
+  },
+  {
+    "id": "norvezhskoe-more-okun-klyuvach-762-371",
+    "water": "norvezhskoe-more",
+    "fish": "Окунь-клювач",
+    "coord": "762:371",
+    "place": null,
+    "bait": null,
+    "clip": "60",
+    "note": "Глубина 60, скорость 50",
+    "verified": true,
+    "sources": [
+      "rf4guru"
+    ]
+  },
+  {
+    "id": "norvezhskoe-more-molva-golubaya-670-463",
+    "water": "norvezhskoe-more",
+    "fish": "Мольва голубая",
+    "coord": "670:463",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Яма 170",
+    "verified": true,
+    "sources": [
+      "rf4guru"
+    ]
+  },
+  {
+    "id": "norvezhskoe-more-okun-morskoy-norvezhskiy-427-216",
+    "water": "norvezhskoe-more",
+    "fish": "Окунь морской норвежский",
+    "coord": "427:216",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Яма 120 м",
+    "verified": true,
+    "sources": [
+      "rf4guru"
+    ]
+  },
+  {
+    "id": "kuori-golec-kuorskiy-113-92",
+    "water": "kuori",
+    "fish": "Голец куорский",
+    "coord": "113:92",
+    "place": null,
+    "bait": "Terminator F10, Balsa Joined, Orig Minnow, ёрш как живец",
+    "clip": null,
+    "note": "Спиннинг, троллинг, донка с живцом. Запасные точки 87:89, 123:102, 120:88, 91:93",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "kuori-forel-ozernaya-92-100",
+    "water": "kuori",
+    "fish": "Форель озёрная",
+    "coord": "92:100",
+    "place": null,
+    "bait": "Hornet 3-006, Hunter 2-002, Terminator, Balsa Joined",
+    "clip": null,
+    "note": "Спиннинг, троллинг. Запасные точки 75:113, 129:109, 127:100, 120:88",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "kuori-sig-kuorskiy-69-86",
+    "water": "kuori",
+    "fish": "Сиг куорский",
+    "coord": "69:86",
+    "place": null,
+    "bait": "Личинка веснянки, личинка поденки, жук-плавунец, личинка майского жука",
+    "clip": null,
+    "note": "Поплавок, матч, лёгкая донка. Начинать с небольшой глубины",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "kuori-paliya-obyknovennaya-113-92",
+    "water": "kuori",
+    "fish": "Палия обыкновенная",
+    "coord": "113:92",
+    "place": null,
+    "bait": "Ёрш, воблеры, живцовые варианты",
+    "clip": null,
+    "note": "Спиннинг, троллинг, живцовая донка. Брать снасть с запасом",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "kuori-lesch-120-113",
+    "water": "kuori",
+    "fish": "Лещ",
+    "coord": "120:113",
+    "place": null,
+    "bait": "Каша гороховая, тесто творожное, тесто чесночное",
+    "clip": null,
+    "note": "Фидер. Запасные точки 88:99, 89:99",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "kuori-forel-raduzhnaya-120-113",
+    "water": "kuori",
+    "fish": "Форель радужная",
+    "coord": "120:113",
+    "place": null,
+    "bait": "Orig Minnow 13-S006, Terminator F10, Balsa Joined",
+    "clip": null,
+    "note": "Спиннинг, троллинг. Запасные точки 118:87, 92:100, 7:5",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "kuori-ryapushka-93-101",
+    "water": "kuori",
+    "fish": "Ряпушка",
+    "coord": "93:101",
+    "place": null,
+    "bait": "Личинка майского жука, мелкие натуральные наживки",
+    "clip": null,
+    "note": "Поплавок, матч. Запасные точки 84:89, 97:89",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "yantarnoe-karp-ramchatyy-lineynyy-cheshuychatyy-zerkalnyy-golyy-83-145",
+    "water": "yantarnoe",
+    "fish": "Карп (рамчатый, линейный, чешуйчатый, зеркальный, голый)",
+    "coord": "83:145",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Запасные точки 64:94, 132:147, 169:83, 120:155. Координаты показывают, где рыбу ловили раньше, а не гарантию поклёвки",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "yantarnoe-karp-krasnyy-starvas-83-145",
+    "water": "yantarnoe",
+    "fish": "Карп красный Старвас",
+    "coord": "83:145",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Редкая рыба. Также пробовать 107:163 и 132:147",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "yantarnoe-usach-obyknovennyy-124-66",
+    "water": "yantarnoe",
+    "fish": "Усач обыкновенный",
+    "coord": "124:66",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Также 162:78, 83:145, 132:147",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "medvezhe-amur-belyy-55-31",
+    "water": "medvezhe",
+    "fish": "Амур белый",
+    "coord": "55:31",
+    "place": null,
+    "bait": "Бойлы кокос-сливки или малина, картофельный кубик",
+    "clip": null,
+    "note": "Запасная точка 44:50. Рекорд по статистике свыше 49 кг",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "medvezhe-amur-chernyy-55-63",
+    "water": "medvezhe",
+    "fish": "Амур чёрный",
+    "coord": "55:63",
+    "place": null,
+    "bait": "Бойлы с фруктовым дипом",
+    "clip": null,
+    "note": "Запасная точка 44:50",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "medvezhe-karp-golyy-40-55",
+    "water": "medvezhe",
+    "fish": "Карп голый",
+    "coord": "40:55",
+    "place": null,
+    "bait": "Картофельный кубик, бойлы",
+    "clip": null,
+    "note": "Запасная точка 5:56. Рекорд свыше 59 кг",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "medvezhe-karp-zerkalnyy-55-33",
+    "water": "medvezhe",
+    "fish": "Карп зеркальный",
+    "coord": "55:33",
+    "place": null,
+    "bait": "Бойлы: тунец, королевская слива, мёд",
+    "clip": null,
+    "note": "Дальность примерно 18-21 м. Запасная точка 43:51",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "medvezhe-karp-cheshuychatyy-79-78",
+    "water": "medvezhe",
+    "fish": "Карп чешуйчатый",
+    "coord": "79:78",
+    "place": null,
+    "bait": "Бойлы, кукуруза с дипом",
+    "clip": null,
+    "note": null,
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "medvezhe-karp-golyy-albinos-78-23",
+    "water": "medvezhe",
+    "fish": "Карп голый альбинос",
+    "coord": "78:23",
+    "place": null,
+    "bait": "Поп-апы, кукуруза",
+    "clip": null,
+    "note": null,
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "medvezhe-lin-5-31",
+    "water": "medvezhe",
+    "fish": "Линь",
+    "coord": "5:31",
+    "place": null,
+    "bait": "Чесночная паста, сыр, перловка",
+    "clip": null,
+    "note": "Также 55:0",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "medvezhe-schuka-43-54",
+    "water": "medvezhe",
+    "fish": "Щука",
+    "coord": "43:54",
+    "place": null,
+    "bait": "Воблеры, силикон, живец",
+    "clip": null,
+    "note": "Дальний заброс примерно 35 м. Запасная точка 73:62",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-karasekarp-63-54",
+    "water": "mednoe",
+    "fish": "Карасекарп",
+    "coord": "63:54",
+    "place": null,
+    "bait": "Ананас 25",
+    "clip": null,
+    "note": "Запасная точка 67:69",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-karp-dinkenbyulskiy-zerkalnyy-61-53",
+    "water": "mednoe",
+    "fish": "Карп динкенбюльский зеркальный",
+    "coord": "61:53",
+    "place": null,
+    "bait": "Тутти-фрутти 25, клубника Pop-Up 15",
+    "clip": null,
+    "note": "Запасная точка 44:34",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-karp-koi-orendzi-ogon-61-53",
+    "water": "mednoe",
+    "fish": "Карп кои Орэндзи Огон",
+    "coord": "61:53",
+    "place": null,
+    "bait": "Тутти-фрутти 25, свежая клюква Pop Ups 16, ежевика PopUp 16",
+    "clip": null,
+    "note": "Также 61:62, 49:41",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-karp-dinkenbyulskiy-lineynyy-37-32",
+    "water": "mednoe",
+    "fish": "Карп динкенбюльский линейный",
+    "coord": "37:32",
+    "place": null,
+    "bait": "Тутти-фрутти 25, свежая клюква Pop Ups 16, ананас 25",
+    "clip": null,
+    "note": "Также 61:62, 7:12",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-karp-super-friks-37-32",
+    "water": "mednoe",
+    "fish": "Карп Супер Фрикс",
+    "coord": "37:32",
+    "place": null,
+    "bait": "Тутти-фрутти 25",
+    "clip": null,
+    "note": "Запасная точка 47:51",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-karp-golyy-56-50",
+    "water": "mednoe",
+    "fish": "Карп голый",
+    "coord": "56:50",
+    "place": null,
+    "bait": "Тропический ананас 20, тутти-фрутти 25, свежая клюква Pop Ups 16",
+    "clip": null,
+    "note": "Также 47:51, 61:62",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-karp-koi-kohaku-44-34",
+    "water": "mednoe",
+    "fish": "Карп кои Кохаку",
+    "coord": "44:34",
+    "place": null,
+    "bait": "Клубника Pop-Up 15, ананас 25, чёрная смородина 10",
+    "clip": null,
+    "note": "Также 7:12, 50:13",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-lin-kvolsdorfskiy-61-53",
+    "water": "mednoe",
+    "fish": "Линь квольсдорфский",
+    "coord": "61:53",
+    "place": null,
+    "bait": "Сливки, тутти-фрутти жёлтый",
+    "clip": null,
+    "note": "Также 67:59, 34:31",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "mednoe-serebryanyy-karas-56-50",
+    "water": "mednoe",
+    "fish": "Серебряный карась",
+    "coord": "56:50",
+    "place": null,
+    "bait": "Банан Pop-Up 14",
+    "clip": null,
+    "note": "Также 54:47, 44:50",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "losinoe-varmous-114-106",
+    "water": "losinoe",
+    "fish": "Вармоус",
+    "coord": "114:106",
+    "place": null,
+    "bait": "Червь, ленинградский червь",
+    "clip": null,
+    "note": "Запасная точка 139:118",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "losinoe-krappi-belyy-114-106",
+    "water": "losinoe",
+    "fish": "Краппи белый",
+    "coord": "114:106",
+    "place": null,
+    "bait": "Оболочка червя и червь",
+    "clip": null,
+    "note": "Также 106:72, 53:88",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "losinoe-gorbyl-rechnoy-105-95",
+    "water": "losinoe",
+    "fish": "Горбыль речной",
+    "coord": "105:95",
+    "place": null,
+    "bait": "Джиг Perfect Craw 3.5 010",
+    "clip": null,
+    "note": null,
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-golavl-87-87",
+    "water": "komarinoe",
+    "fish": "Голавль",
+    "coord": "87:87",
+    "place": null,
+    "bait": "Красный червь, муха, перловая каша",
+    "clip": "10-12",
+    "note": "Крючок Большой 1. Запасные точки 85:45, 78:90",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-gustera-50-80",
+    "water": "komarinoe",
+    "fish": "Густера",
+    "coord": "50:80",
+    "place": null,
+    "bait": "Красный червь, чесночное тесто, мотыль, червь",
+    "clip": "8",
+    "note": "Глубина около 2,5 м. Запасная точка 78:76",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-karas-zolotoy-i-serebryanyy-53-87",
+    "water": "komarinoe",
+    "fish": "Карась золотой и серебряный",
+    "coord": "53:87",
+    "place": null,
+    "bait": "Сладкое тесто, кокос-сливки 14 + сладкие сливки 14",
+    "clip": "8-12",
+    "note": "Крючок Большой 1. Также 92:58, 46:72",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-karp-zerkalnyy-98-80",
+    "water": "komarinoe",
+    "fish": "Карп зеркальный",
+    "coord": "98:80",
+    "place": null,
+    "bait": "Медовое тесто",
+    "clip": "10-12",
+    "note": "Крючок Большой 1",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-karp-cheshuychatyy-53-87",
+    "water": "komarinoe",
+    "fish": "Карп чешуйчатый",
+    "coord": "53:87",
+    "place": null,
+    "bait": "Кукуруза, картофель, медовое тесто",
+    "clip": "12",
+    "note": "Крючок Большой 1",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-karp-koi-midori-goi-87-87",
+    "water": "komarinoe",
+    "fish": "Карп кои Мидори-гои",
+    "coord": "87:87",
+    "place": null,
+    "bait": "Кокос-сливки 14 + сладкие сливки 14, малина, тутти-фрутти, мёд, медовые поп-апы, творожное и медовое тесто",
+    "clip": null,
+    "note": "Редкая рыба. Крючок Большой 1 или под размер бойла",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-lesch-87-87",
+    "water": "komarinoe",
+    "fish": "Лещ",
+    "coord": "87:87",
+    "place": null,
+    "bait": "Чесночное тесто",
+    "clip": "20",
+    "note": "Крючок Большой 1",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-lin-87-87",
+    "water": "komarinoe",
+    "fish": "Линь",
+    "coord": "87:87",
+    "place": null,
+    "bait": "Свежая малина 16, клубника 15, червь, кукуруза",
+    "clip": "8",
+    "note": "Крючок Большой 1",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "komarinoe-lin-zolotistyy-87-87",
+    "water": "komarinoe",
+    "fish": "Линь золотистый",
+    "coord": "87:87",
+    "place": null,
+    "bait": "Кокос-сливки, кокос-сливки Pop-Up 12",
+    "clip": "8",
+    "note": "Крючок Большой 1. Запасная точка 53:87",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "vyunok-beloglazka-87-102",
+    "water": "vyunok",
+    "fish": "Белоглазка",
+    "coord": "87:102",
+    "place": null,
+    "bait": "Ручейник, червь",
+    "clip": "10",
+    "note": "Крючок Крошечный 24. Запасная точка 114:125",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "vyunok-elec-107-123",
+    "water": "vyunok",
+    "fish": "Елец",
+    "coord": "107:123",
+    "place": null,
+    "bait": "Перловка, кастер, муха",
+    "clip": null,
+    "note": "Крючок Крошечный 22, глубина 18-30 см. Также 72:85, 87:103",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "vyunok-perlovica-118-124",
+    "water": "vyunok",
+    "fish": "Перловица",
+    "coord": "118:124",
+    "place": null,
+    "bait": "Навозный червь",
+    "clip": "10-12",
+    "note": "Крючок Крошечный 20. Запасная точка 113:126",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "belaya-forel-harius-golavl-71-37",
+    "water": "belaya",
+    "fish": "Форель, хариус, голавль",
+    "coord": "71:37",
+    "place": null,
+    "bait": "Spiker 2 018, Hornet 1 005, навозный жук, майский жук",
+    "clip": null,
+    "note": "Спиннинг, матч. Хорошая стартовая точка",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "belaya-forel-harius-golavl-plotva-73-45",
+    "water": "belaya",
+    "fish": "Форель, хариус, голавль, плотва",
+    "coord": "73:45",
+    "place": null,
+    "bait": "Hornet 1 001, Spiker 2 018, опарыш, навозный червь, поппер",
+    "clip": null,
+    "note": "Спиннинг, матч, поплавок, болонка",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "belaya-nalim-nochyu-73-48",
+    "water": "belaya",
+    "fish": "Налим (ночью)",
+    "coord": "73:48",
+    "place": null,
+    "bait": "Кусочки рыбы, опарыш, мясо дрейссены, поппер",
+    "clip": null,
+    "note": "Донка, фидер, поплавок, спиннинг. Главная ночная точка на налима",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "belaya-lesch-harius-70-69",
+    "water": "belaya",
+    "fish": "Лещ, хариус",
+    "coord": "70:69",
+    "place": null,
+    "bait": "Чесночное тесто, Spiker 2 015",
+    "clip": "10-13",
+    "note": "Фидер, донка, спиннинг",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "belaya-ukleyka-harius-72-58",
+    "water": "belaya",
+    "fish": "Уклейка, хариус",
+    "coord": "72:58",
+    "place": null,
+    "bait": "Муха, Spiker 2 011, навозный жук",
+    "clip": null,
+    "note": "Поплавок, спиннинг. Мелководье подходит для уклейки",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "ladozhskoe-ozero-ryba-na-lichinku-podenki-ili-vesnyanki-49-37",
+    "water": "ladozhskoe-ozero",
+    "fish": "Рыба на личинку поденки или веснянки",
+    "coord": "49:37",
+    "place": null,
+    "bait": "Личинка поденки, личинка веснянки",
+    "clip": "15",
+    "note": "Фидер или донка, глубина 1,5 м, квадрат E7. Точка работает два дня, потом ей нужен отдых",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "ladozhskoe-ozero-siglud-i-sig-vuoksinskiy-82-59",
+    "water": "ladozhskoe-ozero",
+    "fish": "Сиглуд и сиг вуоксинский",
+    "coord": "82:59",
+    "place": null,
+    "bait": "Личинка веснянки",
+    "clip": null,
+    "note": "Петлевая оснастка, забрасывать строго на восток, глубина 1,5-2,5 м, квадрат I4",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "ladozhskoe-ozero-paliya-i-golcy-95-20",
+    "water": "ladozhskoe-ozero",
+    "fish": "Палия и гольцы",
+    "coord": "95:20",
+    "place": null,
+    "bait": "Приманка Tiny Fish 4-001 днём, 4-005 ночью",
+    "clip": null,
+    "note": "Техасская оснастка, скорость 25, классическая ступенчатая проводка, квадрат J9",
+    "verified": true,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "volhov-zhereh-som-sudak-100-93",
+    "water": "volhov",
+    "fish": "Жерех, сом, судак",
+    "coord": "100:93",
+    "place": null,
+    "bait": "Блесна, воблер, поролон 001, силикон",
+    "clip": null,
+    "note": "Сом на поролон 001 и выползка, судак на поролон 002. В справочнике координаты записаны через точку, здесь приведены как X:Y",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "volhov-losos-ladozhskiy-i-atlanticheskiy-108-108",
+    "water": "volhov",
+    "fish": "Лосось ладожский и атлантический",
+    "coord": "108:108",
+    "place": null,
+    "bait": "Воблеры, блёсны",
+    "clip": null,
+    "note": "Троллинг",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "volhov-golavl-yaz-127-91",
+    "water": "volhov",
+    "fish": "Голавль, язь",
+    "coord": "127:91",
+    "place": null,
+    "bait": "Кузнечик, блёсны",
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "volhov-lesch-127-43",
+    "water": "volhov",
+    "fish": "Лещ",
+    "coord": "127:43",
+    "place": null,
+    "bait": "Кузнечик, творог, червь",
+    "clip": null,
+    "note": "Также 127:91",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "volhov-nalim-123-13",
+    "water": "volhov",
+    "fish": "Налим",
+    "coord": "123:13",
+    "place": null,
+    "bait": "Выползок, кусок рыбы",
+    "clip": null,
+    "note": "Запасная точка 166:100",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "volhov-schuka-135-118",
+    "water": "volhov",
+    "fish": "Щука",
+    "coord": "135:118",
+    "place": null,
+    "bait": "Поппер Angry Walker, воблеры",
+    "clip": null,
+    "note": null,
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "sura-tolstolobik-81-32",
+    "water": "sura",
+    "fish": "Толстолобик",
+    "coord": "81:32",
+    "place": null,
+    "bait": "Grass Cake Pellets 18-25 мм + Spring Herbs",
+    "clip": null,
+    "note": "Фидер, волосяная оснастка, заброс 35-40 м",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "sura-osetr-i-lesch-97-38",
+    "water": "sura",
+    "fish": "Осётр и лещ",
+    "coord": "97:38",
+    "place": null,
+    "bait": "Медведка, пучок червей",
+    "clip": null,
+    "note": "Мощная донка, заброс около 45 м, глубокая яма",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "sura-sudak-i-bersh-73-12",
+    "water": "sura",
+    "fish": "Судак и берш",
+    "coord": "73:12",
+    "place": null,
+    "bait": "Силикон 3-4 дюйма",
+    "clip": null,
+    "note": "Джиг или дроп-шот, заброс 50-70 м, ямы с ракушкой, лучше на рассвете",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "sura-plotva-trofey-60-44",
+    "water": "sura",
+    "fish": "Плотва (трофей)",
+    "coord": "60:44",
+    "place": null,
+    "bait": "Кубики сыра, ручейник",
+    "clip": "8",
+    "note": "Фидер, нужна прикормка с животным компонентом",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "severskiy-donec-shemaya-tyulka-seld-99-133",
+    "water": "severskiy-donec",
+    "fish": "Шемая, тюлька, сельдь",
+    "coord": "99:133",
+    "place": null,
+    "bait": "Личинка короеда, кастер + опарыш",
+    "clip": null,
+    "note": "Глубина до 1 м, заброс 60%",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "severskiy-donec-krasnoperka-shemaya-podust-61-148",
+    "water": "severskiy-donec",
+    "fish": "Краснопёрка, шемая, подуст",
+    "coord": "61:148",
+    "place": null,
+    "bait": "Поденка, личинка короеда, навозный жук",
+    "clip": null,
+    "note": "Крючок 16",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "severskiy-donec-taran-chehon-63-149",
+    "water": "severskiy-donec",
+    "fish": "Тарань, чехонь",
+    "coord": "63:149",
+    "place": null,
+    "bait": "Перловка + личинка короеда",
+    "clip": null,
+    "note": "Заброс 50-60%",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "severskiy-donec-golavl-yaz-72-159",
+    "water": "severskiy-donec",
+    "fish": "Голавль, язь",
+    "coord": "72:159",
+    "place": null,
+    "bait": null,
+    "clip": "17",
+    "note": "Вечером",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "severskiy-donec-nalim-sudak-95-173",
+    "water": "severskiy-donec",
+    "fish": "Налим, судак",
+    "coord": "95:173",
+    "place": null,
+    "bait": "Мясо",
+    "clip": null,
+    "note": "Ночью",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "severskiy-donec-bersh-ersh-85-164",
+    "water": "severskiy-donec",
+    "fish": "Берш, ёрш",
+    "coord": "85:164",
+    "place": null,
+    "bait": null,
+    "clip": null,
+    "note": "Джиг, яма",
+    "verified": false,
+    "sources": [
+      "rf4rybalka"
+    ]
+  }
+]

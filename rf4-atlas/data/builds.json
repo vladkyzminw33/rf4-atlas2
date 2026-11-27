@@ -1,0 +1,132 @@
+[
+  {
+    "id": "build-samyy-deshevyy-start",
+    "title": "Самый дешёвый старт",
+    "purpose": "Первая проба спиннинга, окунь, мелкая щука",
+    "rod": "Corona S60MH (20 серебра)",
+    "reel": "Spark 2 3000S (10 серебра)",
+    "line": "До 3 кг, не прочнее катушки",
+    "leader": "2-2,5 кг",
+    "lures": "10-25 г",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-normalnaya-pervaya-sborka",
+    "title": "Нормальная первая сборка",
+    "purpose": "Щука, окунь, жерех на первых реках и озёрах",
+    "rod": "Dynamic S70MH",
+    "reel": "Lacerti NG 4000",
+    "line": "3,5-4 кг",
+    "leader": "3-3,5 кг: металл для щуки, флюорокарбон для осторожной рыбы",
+    "lures": "10-28 г",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-ultralayt-dlya-opyta",
+    "title": "Ультралайт для опыта",
+    "purpose": "Окунь, хариус, голавль, лёгкие приманки",
+    "rod": "Arrow S60UL",
+    "reel": "Element 2000",
+    "line": "1,8-2,5 кг",
+    "leader": "1,5-2 кг флюорокарбон",
+    "lures": "1-6 г",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-horoshiy-ultralayt",
+    "title": "Хороший ультралайт",
+    "purpose": "Хариус, голавль, окунь, лёгкая форель",
+    "rod": "Aeros SP60UL",
+    "reel": "Natora 1000",
+    "line": "2,5-3,5 кг",
+    "leader": "2-3 кг флюорокарбон",
+    "lures": "1-4 г",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-sborka-dlya-beloy",
+    "title": "Сборка для Белой",
+    "purpose": "Хариус, голавль, окунь, небольшая щука",
+    "rod": "Aeros SP60ML",
+    "reel": "Natora 3000",
+    "line": "4-6 кг",
+    "leader": "3-5 кг флюорокарбон или металл, если много щуки",
+    "lures": "4-15 г",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-byudzhetnaya-na-schuku",
+    "title": "Бюджетная на щуку",
+    "purpose": "Щука, судак, жерех",
+    "rod": "Premium Stick S70H",
+    "reel": "Proton 6000",
+    "line": "Шнур 6-7,5 кг",
+    "leader": "5-7 кг металл",
+    "lures": "7-26 г",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-rabochaya-na-schuku-i-sudaka",
+    "title": "Рабочая на щуку и судака",
+    "purpose": "Щука, судак, крупный окунь",
+    "rod": "Aeros SP68MH",
+    "reel": "Gold 60s (запасной вариант Titan 8000)",
+    "line": "Шнур 10-12 кг",
+    "leader": "8-10 кг: металл на щуку, флюорокарбон на судака",
+    "lures": "8-26 г",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-dzhig",
+    "title": "Джиг",
+    "purpose": "Судак, окунь, щука на дне и структуре",
+    "rod": "Armada SPF60MH",
+    "reel": "Narga 4000",
+    "line": "Шнур 7-9 кг",
+    "leader": "6-8 кг флюорокарбон или металл",
+    "lures": "Джиги 7-20 г, офсет, техас, дроп-шот",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-tyazhelyy-dzhig",
+    "title": "Тяжёлый джиг",
+    "purpose": "Тяжёлые джиги, крупная щука и судак на глубине",
+    "rod": "Armada SPF68XH",
+    "reel": "Gold 60s (дороже: Venga II 8000 SHS)",
+    "line": "Шнур 12-16 кг",
+    "leader": "10-14 кг металл или прочный флюорокарбон",
+    "lures": "Тяжёлые джиги, не лёгкие 5-7 г",
+    "sources": [
+      "rf4rybalka"
+    ]
+  },
+  {
+    "id": "build-kuori-i-krupnaya-schuka",
+    "title": "Куори и крупная щука",
+    "purpose": "Крупная щука, воблеры, тяжёлые вертушки",
+    "rod": "Black Edition SPF78XH",
+    "reel": "Gold 80s",
+    "line": "В источнике не указана",
+    "leader": "В источнике не указан",
+    "lures": "В источнике не указаны",
+    "sources": [
+      "rf4rybalka"
+    ]
+  }
+]
