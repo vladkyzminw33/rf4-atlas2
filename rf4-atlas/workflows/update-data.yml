@@ -1,0 +1,28 @@
+name: Telegram inbox
+on:
+  schedule:
+    - cron: '17 5 * * *'   # каждый день в 05:17 UTC
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/fetch-telegram.mjs --pages 3
+      - run: npm run check
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/telegram-inbox
+          commit-message: 'Новые кандидаты из Telegram'
+          title: 'Новые кандидаты из Telegram'
+          body: |
+            Скрипт нашёл в публичных каналах посты с координатами. Они лежат в `data/inbox.json` и на сайте
+            не показываются. Проверьте каждую запись по ссылке на пост, затем примите нужные:
+            `npm run promote -- --ids id1,id2` и отклоните лишние: `npm run promote -- --reject id3`.
+          delete-branch: true
