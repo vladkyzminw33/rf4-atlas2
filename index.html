@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Влад РР4 Атлас</title>
+<meta name="description" content="Справочник по Русской рыбалке 4: точки клёва с координатами, наживка, катушки, удилища, готовые сборки и подбор катушки под бюджет.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#E8F0EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A222C" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Влад РР4 Атлас">
+<meta property="og:description" content="Точки клёва, наживка, катушки, удилища и сборки для Русской рыбалки 4.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230A222C'/%3E%3Cpath d='M4 20q6-4 12 0t12 0v8H4z' fill='%234FC4BB'/%3E%3Ccircle cx='16' cy='13' r='5' fill='%23fff'/%3E%3Cpath d='M11 13a5 5 0 0 1 10 0z' fill='%23FF7B4E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Onest:wght@400;500;600&family=Oswald:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css?v=dev">
+<script type="module" src="js/main.js?v=dev"></script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+<div class="wrap">
+
+<header class="hero" id="hero">
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <button type="button" class="btn small theme-btn" id="themeBtn">Ночной режим</button>
+  <div class="hero-in">
+    <div class="eyebrow">Справочник стримера · Русская рыбалка 4</div>
+    <h1>Влад <span>РР4</span> Атлас</h1>
+    <p>Точки клёва с координатами, наживка, катушки, удилища и готовые сборки. Всё, чтобы заранее знать, куда идти и что ставить.</p>
+    <div class="cta">
+      <button type="button" class="btn primary" id="rollBtn">Куда идём сегодня?</button>
+      <a class="btn" href="#build">Подобрать катушку</a>
+    </div>
+  </div>
+</header>
+<ul class="stats" id="stats" aria-label="Что в справочнике"></ul>
+<p class="stamp"><b>Данные обновлены <time id="updated">—</time>.</b> Информация внесена вручную из открытых справочников и постов игроков. Точки и цены меняются с патчами, поэтому перед стримом проверяйте нужную точку в игре.</p>
+
+<div class="tabs" role="tablist" aria-label="Разделы">
+  <button class="tab" role="tab" id="t-spots" data-view="spots" aria-controls="v-spots" aria-selected="true" tabindex="0">Точки и наживка</button>
+  <button class="tab" role="tab" id="t-reels" data-view="reels" aria-controls="v-reels" aria-selected="false" tabindex="-1">Катушки</button>
+  <button class="tab" role="tab" id="t-rods" data-view="rods" aria-controls="v-rods" aria-selected="false" tabindex="-1">Удилища</button>
+  <button class="tab" role="tab" id="t-builds" data-view="builds" aria-controls="v-builds" aria-selected="false" tabindex="-1">Готовые сборки</button>
+  <button class="tab" role="tab" id="t-waters" data-view="waters" aria-controls="v-waters" aria-selected="false" tabindex="-1">Водоёмы</button>
+  <button class="tab" role="tab" id="t-build" data-view="build" aria-controls="v-build" aria-selected="false" tabindex="-1">Сборка по бюджету</button>
+</div>
+
+<main id="main">
+<div id="appStatus" class="status" role="status" aria-live="polite">Загружаю данные…</div>
+
+<section id="v-spots" role="tabpanel" aria-labelledby="t-spots">
+  <h2>Точки клёва</h2>
+  <p class="lead">Координаты в формате X:Y, как в игре. Три столбика у названия водоёма показывают уровень: чем выше, тем позже он открывается. Звёздочка сохраняет точку в избранное на этом устройстве.</p>
+  <div class="bar">
+    <div class="field f1"><label for="spotWater">Водоём</label><select id="spotWater"></select></div>
+    <div class="field f2"><label for="spotQ">Рыба или наживка</label><input id="spotQ" type="search" placeholder="например: карп, мотыль, спиннер" autocomplete="off"></div>
+    <button type="button" class="chip" id="favOnly" aria-pressed="false">Только избранное</button>
+    <button type="button" class="btn primary" id="rollBtn2">Случайная точка</button>
+    <div class="count" id="spotCount" aria-live="polite"></div>
+  </div>
+  <div class="pick" id="pick" hidden></div>
+  <div class="grid" id="spotList"></div>
+</section>
+
+<section id="v-reels" role="tabpanel" aria-labelledby="t-reels" hidden>
+  <h2>Катушки</h2>
+  <p class="lead">Нажмите на заголовок столбца, чтобы отсортировать. Цены указаны в серебре и золоте, прочерк в серебре значит, что за серебро катушку не купить.</p>
+  <div class="tips">
+    <div><b>Фрикцион, кг</b>Сила, с которой катушка отдаёт леску. Леска или шнур должны выдерживать примерно столько же, иначе порвётся раньше, чем сработает тормоз.</div>
+    <div><b>Мех., кг</b>Прочность механизма. Игроки советуют смотреть её в деталях катушки, а не только в общей сборке, и чинить при износе 20-30%.</div>
+    <div><b>Размер и леска</b>По справочнику Potryasov Game: размеры 1000 и 2000 идут с леской 0,18 мм, 3000 и 4000 с 0,24 мм, 6000 и 8000 с 0,32 мм, от 10000 с 0,56 мм.</div>
+  </div>
+  <div class="bar">
+    <div class="field"><span class="label" id="reelTypeLabel">Тип</span>
+      <div class="chips" id="reelType" role="group" aria-labelledby="reelTypeLabel">
+        <button type="button" class="chip" data-type="spin" aria-pressed="true">Безынерционные</button>
+        <button type="button" class="chip" data-type="multi" aria-pressed="false">Мультипликаторные</button>
+      </div>
+    </div>
+    <div class="field f-sm"><label for="reelSize">Размер</label><select id="reelSize"></select></div>
+    <div class="field f2"><label for="reelQ">Название</label><input id="reelQ" type="search" placeholder="например: Overlord" autocomplete="off"></div>
+    <div class="count" id="reelCount" aria-live="polite"></div>
+  </div>
+  <div class="tablewrap" tabindex="0" role="region" aria-label="Таблица катушек"><table id="reelTable"></table></div>
+</section>
+
+<section id="v-rods" role="tabpanel" aria-labelledby="t-rods" hidden>
+  <h2>Удилища</h2>
+  <p class="lead">Болонские и джерковые удилища с тестом, строем и прочностью. Спиннинговые, фидерные, карповые и пикерные удилища в этот справочник пока не попали: их таблица на сайте-источнике не открылась целиком.</p>
+  <div class="bar">
+    <div class="field"><span class="label" id="rodTypeLabel">Тип</span>
+      <div class="chips" id="rodType" role="group" aria-labelledby="rodTypeLabel">
+        <button type="button" class="chip" data-type="" aria-pressed="true">Все</button>
+        <button type="button" class="chip" data-type="bolognese" aria-pressed="false">Болонские</button>
+        <button type="button" class="chip" data-type="jerk" aria-pressed="false">Джерковые</button>
+      </div>
+    </div>
+    <div class="field f2"><label for="rodQ">Название</label><input id="rodQ" type="search" placeholder="например: Segun" autocomplete="off"></div>
+    <div class="count" id="rodCount" aria-live="polite"></div>
+  </div>
+  <div class="tablewrap" tabindex="0" role="region" aria-label="Таблица удилищ"><table id="rodTable"></table></div>
+</section>
+
+<section id="v-builds" role="tabpanel" aria-labelledby="t-builds" hidden>
+  <h2>Готовые сборки</h2>
+  <p class="lead">Проверенные игроками комплекты для спиннинга: удилище, катушка, леска, поводок и приманки. Названия удилищ и катушек можно найти в соседних разделах.</p>
+  <div class="bar">
+    <div class="field f2"><label for="buildQ">Поиск по сборкам</label><input id="buildQ" type="search" placeholder="например: щука, Белая, ультралайт" autocomplete="off"></div>
+    <div class="count" id="buildCount" aria-live="polite"></div>
+  </div>
+  <div class="grid" id="buildList"></div>
+</section>
+
+<section id="v-waters" role="tabpanel" aria-labelledby="t-waters" hidden>
+  <h2>Водоёмы</h2>
+  <p class="lead">Уровень открытия, число видов рыбы, рекорд из статистики улова, справка и история. Число видов в разных справочниках немного отличается.</p>
+  <div class="grid" id="waterList"></div>
+</section>
+
+<section id="v-build" role="tabpanel" aria-labelledby="t-build" hidden>
+  <h2>Сборка по бюджету</h2>
+  <p class="lead">Помощник подбирает катушку под ваш бюджет и цель, затем подсказывает, какую леску к ней взять. Он работает по правилам из таблицы катушек. Спиннинговые удилища и леска с ценами пока не добавлены, но проверенные комплекты есть в разделе «Готовые сборки».</p>
+  <div class="build">
+    <div class="panel">
+      <div class="field"><label for="bBudget">Бюджет на катушку, серебро</label>
+        <input id="bBudget" type="number" min="0" step="100" value="10000" inputmode="numeric">
+        <input id="bBudgetR" type="range" min="0" max="60000" step="500" value="10000" aria-label="Бюджет, ползунок"></div>
+      <div class="field"><label for="bLevel">Ваш уровень</label><input id="bLevel" type="number" min="1" max="50" value="28" inputmode="numeric"></div>
+      <div class="field"><label for="bType">Тип катушки</label>
+        <select id="bType"><option value="spin">Безынерционная</option><option value="multi">Мультипликаторная</option></select></div>
+      <div class="field"><label for="bTarget">Кого ловим</label>
+        <select id="bTarget">
+          <option value="s">Мелкая рыба, до 9 кг фрикциона</option>
+          <option value="m">Средняя рыба, 9-17 кг</option>
+          <option value="l" selected>Крупная рыба, 17-26 кг</option>
+          <option value="x">Гиганты, от 26 кг</option>
+        </select></div>
+    </div>
+    <div id="buildOut" aria-live="polite"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p id="sourceList">Источники данных указаны в каждой карточке.</p>
+  <p>Таблица катушек в источнике обновлялась в марте 2025. Это неофициальный фанатский справочник, не связанный с разработчиками игры.</p>
+</footer>
+</div>
+<noscript><p class="noscript">Для работы справочника нужен JavaScript. Включите его в настройках браузера.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "vlad-rr4-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Справочник по Русской рыбалке 4: точки клёва, наживка, катушки, удилища и сборки",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm run validate && npm test",
+    "build": "node scripts/build.mjs",
+    "import": "node scripts/import.mjs",
+    "fetch": "node scripts/fetch-telegram.mjs",
+    "promote": "node scripts/promote.mjs"
+  }
+}
